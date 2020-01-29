@@ -1,0 +1,12 @@
+[user]
+	name = Adrian Pirela
+	email = fx.adrian@gmail.com
+[credential]
+	helper = cache --timeout=3600
+
+[alias]
+    serve = !git daemon --base-path=. --export-all --reuseaddr --informative-errors --verbose
+    hub = !git daemon --base-path=. --export-all --enable=receive-pack --reuseaddr --informative-errors --verbose
+[core]
+    excludesfile = ~/.global_gitignore 
+

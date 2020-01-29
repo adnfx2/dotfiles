@@ -1,0 +1,17 @@
+# bare
+/branches
+/hooks
+/info
+/objects
+/refs
+/config
+HEAD
+description
+config
+
+# vim temporal files
+.*.swp
+.*.swo
+.*.swn
+
+~/.config/nvim/plugged
